@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/shop/index",
+    "pages/mine/home",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/login/forget",
+    "pages/login/protocol/protocol",
+    "pages/mine/addtask/addtask"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#1cbbb4",
+    "navigationBarTitleText": "Tasker",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取定位匹配最近门店信息"
+    }
+  },
+  "usingComponents": {
+    "home": "/pages/home/home",
+    "shop": "/pages/shop/index",
+    "mine": "/pages/mine/home",
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}
